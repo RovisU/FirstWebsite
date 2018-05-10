@@ -1,0 +1,64 @@
+body{
+  font-family: 'Share Tech', sans-serif;
+  background: url(../img/bg_accoyanca.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+
+.cajaPrincipal {
+  background-color: #fff;
+  border-left: 3px solid #8A2BE2;
+  border-right: 3px solid #8A2BE2;
+  border-top: 0.1px solid #8A2BE2;
+  border-bottom: 0.1px solid #8A2BE2;
+  }
+.yoimagen{
+	margin-top: -50px;
+	border: 2px solid #ddd;
+}
+
+#header {
+  margin-top: 20px;
+}
+
+.alcalde {
+  border: 8px solid #ddd;
+}
+
+ .bgva {
+   background: #8A2BE2;
+   background: -webkit-linear-gradient(to right, #000, #8A2BE2);
+   background: linear-gradient(to right, #000, #8A2BE2);
+}
+
+.cabecera {
+  color: #fff;
+}
+
+ #testimonial {
+   background: #f1f1f1;
+   padding: 50px 0 30px 0;
+   text-align: justify;
+   margin-top: 40px;
+ }
+.socialBg {
+  background: #8A2BE2;
+  background: -webkit-linear-gradient(to right, #000, #8A2BE2);
+  background: linear-gradient(to right, #000, #8A2BE2);
+}
+
+.social {
+  font-size: 40px;
+}
+
+#contact {
+  background: url(../img/smartphones.png);
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}

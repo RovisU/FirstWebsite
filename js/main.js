@@ -1,11 +1,10 @@
-$(document).ready(function(){
+$(function () {
+   // grab an element
+var myElement = document.querySelector("header");
+// construct an instance of Headroom, passing the element
+var headroom  = new Headroom(myElement);
+// initialise
+headroom.init();
 
-	$('.flexslider').flexslider({
-		prevText: "",
-		nextText: "",
-		pauseOnAction: false,
-		slideshowSpeed: 3000,
-		touch: true
-	});
 
 });

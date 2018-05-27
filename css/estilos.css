@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Share Tech', sans-serif;
+    font-size: 16px;
+    padding-top: 65px;
+    background: url(../img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+.cajaPrincipal {
+  background-color: #f1f1f1;
+  border-left: 0.1px solid #8A2BE2;
+  border-right: 0.1px solid #8A2BE2;
+  border-top: 0.1px solid #8A2BE2;
+  border-bottom: 0.1px solid #8A2BE2;
+  border-radius: 8px;
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.50);
+
+  }
+
+/* Efectos del Menu de Navegacion */
+
+.headroom {
+    transition: transform .3s ease;
+}
+
+.headroom--pinned {
+    transform: translateY(0%);
+}
+
+.headroom--unpinned {
+    transform: translateY(-100%)
+}
+
+.header--fixed {
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.tituloTam {
+    font-size: 40px;
+}
+
+/*SLIDER*/
+
+.flexslider{
+	width: 100%;
+
+	border: 8px solid #fff;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+/* PERSONAJES */
+
+.yoimagen{
+	margin-top: -50px;
+	border: 2px solid #ddd;
+}
+
+/* SOCIAL */
+
+.social {
+  font-size: 40px;
+}
+
+.socialBg {
+  background: #8A2BE2;
+  background: -webkit-linear-gradient(to right, #000, #8A2BE2);
+  background: linear-gradient(to right, #000, #8A2BE2);
+}
+
+/* CONTACTO */
+
+#contact {
+  background: url(../img/smartphones.png);
+}
+/* FOOTER */
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+
+
+ .bgva {
+     background: #8A2BE2;
+     background: -webkit-linear-gradient(to right, #000, #8A2BE2);
+     background: linear-gradient(to right, #000, #8A2BE2);
+ }
